@@ -1,5 +1,4 @@
 #   Nginx
----
 
 ## Modules Overview
 
