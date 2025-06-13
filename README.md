@@ -47,5 +47,31 @@
 - **Demo**: Analyze logs, define custom log format
 
 
+### Module 1
+- Nginx:
+- It  is a high-performance web server that can also be used as a:
+- Reverse proxy
+- Load balancer
+- HTTP cache
+- Mail proxy
+
+ ### Diff b/w  Traditional  Web Server & Event-Driven webserver:
+ - new thread or process for each request
+ - a small number of worker processes that can handle thousands of connections at the same time, using something called events.
+ - Ex:
+```bash
+   One waiter per customer.
+  100 customers = 100 waiters.
+  Very busy, slow, and costly.
+```
+
+
+
+
+
+
+
+
+
 
 
