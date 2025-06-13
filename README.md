@@ -1,10 +1,7 @@
-#   Nginx Beginner Roadmap with Demos
-
-Welcome! This is a complete beginner-friendly syllabus to learn **Nginx**, one of the most powerful and efficient web servers. Whether you want to serve static websites, reverse proxy APIs, or load balance backend services — this guide has got you covered with **theory + hands-on demos**.
-
+#   Nginx
 ---
 
-## 📚 Modules Overview
+## Modules Overview
 
 ###   Module 1: Introduction to Nginx
 - **Topics**: What is Nginx?, Nginx vs Apache, Use cases
