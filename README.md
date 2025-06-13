@@ -4,15 +4,15 @@
 ## Modules Overview
 
 ###   Module 1: Introduction to Nginx
-- **Topics**: What is Nginx?, Nginx vs Apache, Use cases
-- **Demo**: Install Nginx (Ubuntu/CentOS/Windows) and view the default welcome page
+- **Topics**: What is Nginx?, Nginx  Use case
+- **Demo**: Install Nginx (Ubuntu/rhel) and view the default welcome page
 
 ###   Module 2: Understanding Nginx Configuration
 - **Topics**: nginx.conf, http/server/location blocks, directive syntax
 - **Demo**: Modify config, change ports/logs, add custom error pages
 
 ###   Module 3: Hosting a Static Website
-- **Topics**: Serving HTML/CSS/JS, root directive, MIME types
+- **Topics**: Serving HTML, root directive, MIME types
 - **Demo**: Replace welcome page with your custom static website
 
 ###   Module 4: Virtual Hosts (Server Blocks)
