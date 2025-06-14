@@ -58,13 +58,38 @@
  ### Diff b/w  Traditional  Web Server & Event-Driven webserver:
  - new thread or process for each request
  - a small number of worker processes that can handle thousands of connections at the same time, using something called events.
- - Ex:
+
+ - Ex for Traditional
 ```bash
    One waiter per customer.
   100 customers = 100 waiters.
   Very busy, slow, and costly.
 ```
+ - Ex for Event-driven
+   
+```bash
+5  waiters with walkie-talkies.
+They respond only when needed.
+Handle 100+ customers without panic.
+```
+### Install and verify nginx on ubuntu and RHEL servers
 
+```bash
+sudo apt update
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+systemctl status nginx
+```
+```bash
+sudo yum install epel-release -y
+sudo yum install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+systemctl status nginx
+```
+- Open browser access nginx using http://<pub.ip>
+- 
 
 
 
